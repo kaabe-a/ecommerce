@@ -1,0 +1,1994 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
+ <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="css/main.css">
+  <title>ecommerce</title>
+
+</head>
+
+<body class="bg-white">
+  <!-- Navbar section -->
+  <nav class="navbar navbar-expand-md navbar-dark sticky-top shadow-sm" style="background-color: #6E2A08;">
+    <div class="container-lg">
+      <a href="#home" class="navbar-brand">Ecommerce</a>
+      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="bi bi-list text-light"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#featured" class="nav-link">Featured</a>
+          </li>
+          <li class="nav-item">
+            <a href="#categories" class="nav-link">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a href="#new" class="nav-link">New</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#blog" class="nav-link">Blog</a>
+          </li>
+        </ul>
+        <form action="" class="ms-auto">
+          <input type="search" class="form-control form-control-md" placeholder="search here">
+        </form>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="" class="nav-link"> <i class="bi bi-person-circle" style="font-size: 1.2rem;"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"><i class="bi bi-person-plus-fill" style="font-size: 1.2rem;"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"><i class="bi bi-cart-check-fill" style="font-size: 1.2rem;"></i> <span>0 items -
+                0.0$</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+  <div class="container-lg py-3" id="home">
+    <div class="row py-4 position-relative">
+      <div class="col-sm-8 carousel position-relative  carousel-dark slide" id="carouselExampleIndicators"
+        data-bs-ride="carousel">
+
+        <div class="carousel-inner d-flex align-items-center align-content-center">
+          <div class="carousel-item active">
+            <figure class="figure position-relative text-center">
+              <img class="img-fluid"
+                src="https://images.unsplash.com/photo-1511385348-a52b4a160dc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=907&q=80"
+                alt="">
+              <figcaption
+                class="figure-caption text-start p-2 d-none d-md-block bg-light text-dark position-absolute top-50 w-25 start-0 translate-middle-y">
+                <a href="#" class="btn" style="background-color: #6E2A08; color: white;">Shoes</a>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <a href="" class="btn btn-sm shadow-none d-inline-flex gap-3"
+                  style="background-color: #6E2A08; color: white;">shop now <i class="ri-arrow-right-down-line"></i></a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="carousel-item">
+            <figure class="figure position-relative text-center">
+              <img class="img-fluid"
+                src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt="">
+              <figcaption
+                class="figure-caption text-start p-2 d-none d-md-block bg-light text-dark position-absolute top-50 w-25 start-0 translate-middle-y">
+                <a href="#" class="btn" style="background-color: #6E2A08; color: white;">Shoes</a>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <a href="" class="btn btn-sm shadow-none d-inline-flex gap-3"
+                  style="background-color: #6E2A08; color: white;">shop now <i class="ri-arrow-right-down-line"></i></a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="carousel-item">
+            <figure class="figure position-relative text-center">
+              <img class="img-fluid"
+                src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt="">
+              <figcaption
+                class="figure-caption text-start p-2 d-none d-md-block bg-light text-dark position-absolute top-50 w-25 start-0 translate-middle-y">
+                <a href="#" class="btn" style="background-color: #6E2A08; color: white;">Shoes</a>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <a href="" class="btn btn-sm shadow-none d-inline-flex gap-3"
+                  style="background-color: #6E2A08; color: white;">shop now <i class="ri-arrow-right-down-line"></i></a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="carousel-indicators  position-absolute top-100 start-0 translate-middle-y">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+
+      </div>
+      <div class="col-sm-4">
+        <div class="row">
+          <div class="col-xs-6 col-sm-12 mb-2">
+            <img class="img-fluid bg-light"
+              src="https://images.unsplash.com/photo-1602080858428-57174f9431cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=951&q=80"
+              alt="">
+          </div>
+          <div class="col-xs-6 col-sm-12">
+            <img class="img-fluid bg-light"
+              src="https://images.unsplash.com/photo-1504707748692-419802cf939d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=847&q=80"
+              alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- benefits section -->
+  <section class="benefits-section">
+    <div class="container-lg">
+      <div class="row bg-dark text-white">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="benefits__item d-flex gap-3 p-3">
+            <div class="benefits__item-icon">
+              <i class="bi bi-box border border-danger px-3 rounded-circle fs-1 h-1"></i>
+            </div>
+            <div class="benefits__item-text">
+              <h4 class="fs-5 fw-bold">Free Shipping</h4>
+              <p class="fs-6 text-light">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="benefits__item d-flex gap-3 p-3">
+            <div class="benefits__item-icon">
+              <i class="bi bi-truck border border-danger px-3 rounded-circle fs-1 h-1"></i>
+            </div>
+            <div class="benefits__item-text">
+              <h4 class="fs-5 fw-bold">Free Shipping</h4>
+              <p class="fs-6 text-light">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="benefits__item d-flex gap-3 p-3">
+            <div class="benefits__item-icon">
+
+              <i class="bi bi-arrow-90deg-left border border-danger px-3 rounded-circle fs-1 h-1"></i>
+            </div>
+            <div class="benefits__item-text">
+              <h4 class="fs-5 fw-bold">Free Shipping</h4>
+              <p class="fs-6 text-light">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="benefits__item d-flex gap-3 p-3">
+            <div class="benefits__item-icon">
+              <i class="bi bi-file-lock border border-danger px-3 rounded-circle fs-1 h-1"></i>
+            </div>
+            <div class="benefits__item-text">
+              <h4 class="fs-5 fw-bold">Free Shipping</h4>
+              <p class="fs-6 text-light">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured product section -->
+  <section class="py-5" id="featured">
+    <div class="container-lg text-center">
+      <h3 class="py-4 text-center">Featured Products</h3>
+      <div class="row justify-content-center align-items-center py-4">
+        <div class="col-lg-4">
+          <div class="section-nav text-center">
+            <ul class="nav nav-pills justify-content-center d-flex flex-wrap py-2 mx-auto" id="pills-tab"
+              role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-featured" type="button" role="tab" aria-controls="pills-home"
+                  aria-selected="true">Featured</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-latest-tab" data-bs-toggle="pill" data-bs-target="#pills-latest"
+                  type="button" role="tab" aria-controls="pills-latest" aria-selected="false">Latest</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-top-rated-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-top-tated" type="button" role="tab" aria-controls="pills-top-tated"
+                  aria-selected="false">Top rated</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-specials"
+                  type="button" role="tab" aria-controls="pills-specials" aria-selected="false">Specials</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-featured" role="tabpanel" aria-labelledby="pills-featured-tab">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product09.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product08.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product02.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add Cart<i class="bi bi-cart-plus-fill" style="font-size: 1rem;"></i></a>
+                  <img src="images/product03.png" class="card-img-top img-fluid h-25" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-latest" role="tabpanel" aria-labelledby="pills-latest-tab">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product01.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product06.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product02.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add Cart<i class="bi bi-cart-plus-fill" style="font-size: 1rem;"></i></a>
+                  <img src="images/product03.png" class="card-img-top img-fluid h-25" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-top-tated" role="tabpanel" aria-labelledby="pills-top-rated-tab">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product04.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product08.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product07.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add Cart<i class="bi bi-cart-plus-fill" style="font-size: 1rem;"></i></a>
+                  <img src="images/product03.png" class="card-img-top img-fluid h-25" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-specials" role="tabpanel" aria-labelledby="pills-specials">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product05.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product01.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product08.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add Cart<i class="bi bi-cart-plus-fill" style="font-size: 1rem;"></i></a>
+                  <img src="images/product09.png" class="card-img-top img-fluid h-25" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Categories -->
+  <section class="py-5" id="categories">
+    <div class="container-lg">
+      <h3 class="py-5 text-center">Products Categories</h3>
+      <div class="d-flex align-items-start">
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <button class="nav-link active" id="v-pills-all-tab" data-bs-toggle="pill" data-bs-target="#v-pills-all"
+            type="button" role="tab" aria-controls="v-pills-all" aria-selected="true">All</button>
+          <button class="nav-link" id="v-pills-laptop-tab" data-bs-toggle="pill" data-bs-target="#v-pills-laptop"
+            type="button" role="tab" aria-controls="v-pills-laptop" aria-selected="false">Laptop</button>
+          <button class="nav-link" id="v-pills-earphone-tab" data-bs-toggle="pill" data-bs-target="#v-pills-earphone"
+            type="button" role="tab" aria-controls="v-pills-earphone" aria-selected="false">Earphone</button>
+          <button class="nav-link" id="v-pills-mobile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-mobile"
+            type="button" role="tab" aria-controls="v-pills-mobile" aria-selected="false">Mobile</button>
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-all" role="tabpanel" aria-labelledby="v-pills-all-tab">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add
+                      Cart <i class="bi bi-cart-plus-fill"></i></a>
+                    <img src="images/product01.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add
+                      Cart <i class="bi bi-cart-plus-fill"></i></a>
+                    <img src="images/product01.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add
+                      Cart <i class="bi bi-cart-plus-fill"></i></a>
+                    <img src="images/product02.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add Cart<i class="bi bi-cart-plus-fill" style="font-size: 1rem;"></i></a>
+                    <img src="images/product03.png" class="card-img-top img-fluid h-25" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-laptop" role="tabpanel" aria-labelledby="v-pills-laptop-tab">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add
+                      Cart <i class="bi bi-cart-plus-fill"></i></a>
+                    <img src="images/product06.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add
+                      Cart <i class="bi bi-cart-plus-fill"></i></a>
+                    <img src="images/product01.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add
+                      Cart <i class="bi bi-cart-plus-fill"></i></a>
+                    <img src="images/product02.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add Cart<i class="bi bi-cart-plus-fill" style="font-size: 1rem;"></i></a>
+                    <img src="images/product03.png" class="card-img-top img-fluid h-25" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-earphone" role="tabpanel" aria-labelledby="v-pills-earphone-tab">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add
+                      Cart <i class="bi bi-cart-plus-fill"></i></a>
+                    <img src="images/product06.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add
+                      Cart <i class="bi bi-cart-plus-fill"></i></a>
+                    <img src="images/product07.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add
+                      Cart <i class="bi bi-cart-plus-fill"></i></a>
+                    <img src="images/product02.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add Cart<i class="bi bi-cart-plus-fill" style="font-size: 1rem;"></i></a>
+                    <img src="images/product03.png" class="card-img-top img-fluid h-25" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-mobile" role="tabpanel" aria-labelledby="v-pills-mobile-tab">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add
+                      Cart <i class="bi bi-cart-plus-fill"></i></a>
+                    <img src="images/product01.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add
+                      Cart <i class="bi bi-cart-plus-fill"></i></a>
+                    <img src="images/product01.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add
+                      Cart <i class="bi bi-cart-plus-fill"></i></a>
+                    <img src="images/product02.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-sm border-0">
+                  <div class="top-img position-relative">
+                    <a href="#"
+                      class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                      style="transition: .4s;">Add Cart<i class="bi bi-cart-plus-fill" style="font-size: 1rem;"></i></a>
+                    <img src="images/product03.png" class="card-img-top img-fluid h-25" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional
+                      content.</p>
+                  </div>
+                  <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                    <small class="fs-1 text-primary">$20</small>
+                    <div class="r-footer d-flex flex-column align-items-center">
+                      <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- New Arraivals -->
+  <section class="py-5" id="new">
+    <div class="container-lg">
+      <div class="row justify-content-center position-relative">
+        <div class="col-sm-5 text-center py-5">
+          <div class="section-title">
+            <h2>New Arraivals</h2>
+          </div>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product01.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product08.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product07.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product06.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product05.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product04.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product03.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product02.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card  shadow-sm border-0">
+                <div class="top-img position-relative">
+                  <a href="#"
+                    class="btn btn-primary showbtn position-absolute top-50 start-50 translate-middle-x text-white"
+                    style="transition: .4s;">Add
+                    Cart <i class="bi bi-cart-plus-fill"></i></a>
+                  <img src="images/product01.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product Title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+                  <small class="fs-1 text-primary">$20</small>
+                  <div class="r-footer d-flex flex-column align-items-center">
+                    <i class="bi fs-3 bi-bookmark-heart-fill text-primary"></i>
+                    <div class="stars text-primary">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- blog Posts -->
+  <section class="py-5" id="blog">
+    <div class="container-lg">
+      <h3 class="py-5 text-center">Latest Posts</h3>
+      <div class="row row-cols-1 g-4 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card shadow-sm border-0">
+            <div class="top-img position-relative">
+              <img src="images/program.svg" class="card-img-top img-fluid" alt="...">
+              <div class="card-date position-absolute start-0 bottom-0 d-flex flex-column bg-primary p-2 text-light">
+                <span>04</span>
+                <span>Jul</span>
+                <span>2022</span>
+              </div>
+            </div>
+            <div class="card-body position-relative">
+              <img class="rounded-circle mb-2 position-absolute top-0 end-0 "
+                src="https://randomuser.me/api/portraits/men/7.jpg" style="height: 40px;" alt="">
+              <h5 class="card-title">Kiiko D.</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+            <div class="card-footer border-0 bg-white d-flex justify-content-between align-items-center">
+              <a href="#" class="btn btn-primary">Read More</a>
+              <div class="r-footer d-flex gap-2 align-items-center text-primary">
+                <span>23</span>
+                <i class="ri-message-2-line ri-2x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm border-0">
+            <div class="top-img position-relative">
+              <img src="images/remote.svg" class="card-img-top img-fluid" alt="...">
+              <div class="card-date position-absolute start-0 bottom-0 d-flex flex-column bg-primary p-2 text-light">
+                <span>04</span>
+                <span>Jul</span>
+                <span>2022</span>
+              </div>
+            </div>
+            <div class="card-body position-relative">
+              <img class="rounded-circle mb-2 position-absolute top-0 end-0 "
+                src="https://randomuser.me/api/portraits/men/19.jpg" style="height: 40px;" alt="">
+              <h5 class="card-title">Cali J.</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+            <div class="card-footer border-0 bg-white d-flex justify-content-between align-items-center">
+              <a href="#" class="btn btn-primary">Read More</a>
+              <div class="r-footer d-flex gap-2 align-items-center text-primary">
+                <span>23</span>
+                <i class="ri-message-2-line ri-2x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm border-0">
+            <div class="top-img position-relative">
+              <img src="images/kaabe1.svg" class="card-img-top img-fluid" alt="...">
+              <div class="card-date position-absolute start-0 bottom-0 d-flex flex-column bg-primary p-2 text-light">
+                <span>04</span>
+                <span>Jul</span>
+                <span>2022</span>
+              </div>
+            </div>
+            <div class="card-body position-relative">
+              <img class="rounded-circle mb-2 position-absolute top-0 end-0 "
+                src="https://randomuser.me/api/portraits/men/12.jpg" style="height: 40px;" alt="">
+              <h5 class="card-title">Kaabe a.</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+            <div class="card-footer border-0 bg-white d-flex justify-content-between align-items-center">
+              <a href="#" class="btn btn-primary">Read More</a>
+              <div class="r-footer d-flex gap-2 align-items-center text-primary">
+                <span>23</span>
+                <i class="ri-message-2-line ri-2x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm border-0">
+            <div class="top-img position-relative">
+              <img src="images/remote.svg" class="card-img-top img-fluid" alt="...">
+              <div class="card-date position-absolute start-0 bottom-0 d-flex flex-column bg-primary p-2 text-light">
+                <span>04</span>
+                <span>Jul</span>
+                <span>2022</span>
+              </div>
+            </div>
+            <div class="card-body position-relative">
+              <img class="rounded-circle mb-2 position-absolute top-0 end-0 "
+                src="https://randomuser.me/api/portraits/men/15.jpg" style="height: 40px;" alt="">
+              <h5 class="card-title">Kamaal F.</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+            <div class="card-footer border-0 bg-white d-flex justify-content-between align-items-center">
+              <a href="#" class="btn btn-primary">Read More</a>
+              <div class="r-footer d-flex gap-2 align-items-center text-primary">
+                <span>23</span>
+                <i class="ri-message-2-line ri-2x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testmonails -->
+  <section class="py-5">
+    <div class="container-lg">
+      <div class="row justify-content-center position-relative">
+        <div class="col-sm-5 text-center py-5">
+          <div class="section-title">
+            <h2>What Our Customers Say</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-6">
+            <div class="swiper testmonial">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card bg-light">
+                    <i class="bi bi-quote mb-2 text-center" style="font-size: 2rem;"></i>
+                    <div class="card-body text-center">
+                      <div class="text-center d-flex flex-column align-items-center">
+                        <img class="rounded-circle text-center mb-2 w-50"
+                          src="https://randomuser.me/api/portraits/men/11.jpg" alt="">
+                      </div>
+                      <h3 class="card-title mb-3">John Doe</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor consectetur adipisicing. Dolor asperiores deleniti ratione inventore!
+                      </p>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card bg-light">
+                    <i class="bi bi-quote mb-2 text-center" style="font-size: 2rem;"></i>
+                    <div class="card-body text-center">
+                      <div class="text-center d-flex flex-column align-items-center">
+                        <img class="rounded-circle text-center mb-2 w-50"
+                          src="https://randomuser.me/api/portraits/men/12.jpg" alt="">
+                      </div>
+                      <h3 class="card-title mb-3">Kaabe A.</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor consectetur adipisicing. Dolor asperiores deleniti ratione inventore!
+                      </p>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card bg-light">
+                    <i class="bi bi-quote mb-2 text-center" style="font-size: 2rem;"></i>
+                    <div class="card-body text-center">
+                      <div class="text-center d-flex flex-column align-items-center">
+                        <img class="rounded-circle text-center mb-2 w-50"
+                          src="https://randomuser.me/api/portraits/men/15.jpg" alt="">
+                      </div>
+                      <h3 class="card-title mb-3">Maame A.</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor consectetur adipisicing. Dolor asperiores deleniti ratione inventore!
+                      </p>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card bg-light">
+                    <i class="bi bi-quote mb-2 text-center" style="font-size: 2rem;"></i>
+                    <div class="card-body text-center">
+                      <div class="text-center d-flex flex-column align-items-center">
+                        <img class="rounded-circle text-center mb-2 w-50"
+                          src="https://randomuser.me/api/portraits/men/16.jpg" alt="">
+                      </div>
+                      <h3 class="card-title mb-3">Kiiko M.</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor consectetur adipisicing. Dolor asperiores deleniti ratione inventore!
+                      </p>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card bg-light">
+                    <i class="bi bi-quote mb-2 text-center" style="font-size: 2rem;"></i>
+                    <div class="card-body text-center">
+                      <div class="text-center d-flex flex-column align-items-center">
+                        <img class="rounded-circle text-center mb-2 w-50"
+                          src="https://randomuser.me/api/portraits/women/11.jpg" alt="">
+                      </div>
+                      <h3 class="card-title mb-3">Maria D.</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor consectetur adipisicing. Dolor asperiores deleniti ratione inventore!
+                      </p>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card bg-light">
+                    <i class="bi bi-quote mb-2 text-center" style="font-size: 2rem;"></i>
+                    <div class="card-body text-center">
+                      <div class="text-center d-flex flex-column align-items-center">
+                        <img class="rounded-circle text-center mb-2 w-50"
+                          src="https://randomuser.me/api/portraits/women/13.jpg" alt="">
+                      </div>
+                      <h3 class="card-title mb-3">Ayaan K.</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor consectetur adipisicing. Dolor asperiores deleniti ratione inventore!
+                      </p>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card bg-light">
+                    <i class="bi bi-quote mb-2 text-center" style="font-size: 2rem;"></i>
+                    <div class="card-body text-center">
+                      <div class="text-center d-flex flex-column align-items-center">
+                        <img class="rounded-circle text-center mb-2 w-50"
+                          src="https://randomuser.me/api/portraits/men/21.jpg" alt="">
+                      </div>
+                      <h3 class="card-title mb-3">Samaale M.</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor consectetur adipisicing. Dolor asperiores deleniti ratione inventore!
+                      </p>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card bg-light">
+                    <i class="bi bi-quote mb-2 text-center" style="font-size: 2rem;"></i>
+                    <div class="card-body text-center">
+                      <div class="text-center d-flex flex-column align-items-center">
+                        <img class="rounded-circle text-center mb-2 w-50"
+                          src="https://randomuser.me/api/portraits/men/22.jpg" alt="">
+                      </div>
+                      <h3 class="card-title mb-3">Daad W.</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor consectetur adipisicing. Dolor asperiores deleniti ratione inventore!
+                      </p>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card bg-light">
+                    <i class="bi bi-quote mb-2 text-center" style="font-size: 2rem;"></i>
+                    <div class="card-body text-center">
+                      <div class="text-center d-flex flex-column align-items-center">
+                        <img class="rounded-circle text-center mb-2 w-50"
+                          src="https://randomuser.me/api/portraits/men/26.jpg" alt="">
+                      </div>
+                      <h3 class="card-title mb-3">Nasir H.</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor consectetur adipisicing. Dolor asperiores deleniti ratione inventore!
+                      </p>
+                      <div class="stars text-primary">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- brand sections -->
+  <section class="py-5 mb-5">
+    <div class="container-lg">
+      <h3 class="text-center py-5">Our Brands</h3>
+      <div class="brand-images d-flex flex-wrap align-items-center justify-content-center gap-5" style="opacity: .5;">
+        <div class="img-brand text-center text-muted">
+          <i class="bi bi-instagram" style="font-size: 5rem;"></i>
+        </div>
+        <div class="img-brand text-center text-muted">
+          <i class="bi bi-youtube" style="font-size: 5rem;"></i>
+        </div>
+        <div class="img-brand text-center text-muted">
+          <i class="bi bi-facebook" style="font-size: 5rem;"></i>
+        </div>
+        <div class="img-brand text-center text-muted">
+          <i class="bi bi-twitter" style="font-size: 5rem;"></i>
+        </div>
+        <div class="img-brand text-center text-muted">
+          <i class="bi bi-linkedin" style="font-size: 5rem;"></i>
+        </div>
+        <div class="img-brand text-center text-muted">
+          <i class="bi bi-pinterest" style="font-size: 5rem;"></i>
+        </div>
+        <div class="img-brand text-center text-muted">
+          <i class="bi bi-whatsapp" style="font-size: 5rem;"></i>
+        </div>
+        <div class="img-brand text-center text-muted">
+          <i class="bi bi-messeger" style="font-size: 5rem;"></i>
+        </div>
+        <div class="img-brand text-center text-muted">
+          <i class="bi bi-twitch" style="font-size: 5rem;"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="py-5 bg-dark text-light">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-sm-3 mb-3">
+          <div class="footer">
+            <h4 class="mb-4">Ecommerce</h4>
+            <p class="fw-normal lh-md mb-4" style="color: #999;">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Veniam vel nihil repellendus ipsa eligendi porro
+              repellat reiciendis temporibus tempore optio tenetur quos totam,
+              dolorem numquam illo voluptatibus
+              exercitationem iure neque.
+            </p>
+            <div class="social d-flex flex-start gap-2">
+              <a href="#" class="bg-light text-primary p-1 px-2"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="bg-light text-primary p-1 px-2"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="bg-light text-primary p-1 px-2"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2 mb-3">
+          <div class="about">
+            <h4 class="mb-4">About Us</h4>
+            <ul class="list-unstyled">
+              <li class="mb-2" style="color: #999;">Home</li>
+              <li class="mb-2" style="color: #999;">Blog</li>
+              <li class="mb-2" style="color: #999;">Contact</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-2 mb-3">
+          <div class="company">
+            <h4 class="mb-4">Company</h4>
+            <ul class="list-unstyled text-light">
+              <li class="mb-2" style="color: #999;">About Us</li>
+              <li class="mb-2" style="color: #999;">Terms and Privacy</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-2 mb-3">
+          <div class="categories">
+            <h4 class="mb-4">Categories</h4>
+            <ul class="list-unstyled text-light">
+              <li class="mb-2" style="color: #999;">Featured</li>
+              <li class="mb-2" style="color: #999;">Latest</li>
+              <li class="mb-2" style="color: #999;">New</li>
+              <li class="mb-2" style="color: #999;">Specials</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3 mb-3">
+          <div class="news-letter">
+            <h4 class="mb-4">News Letter</h4>
+            <div class="row">
+              <div class="col">
+                <input type="email" placeholder="Enter Email" class="form-control shadow-none form-control-md mb-3">
+                <button style="background-color: #6E2A08;"
+                  class="btn btn-light btn-md shadow-sm text-light ">subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col">
+          <hr>
+          <br>
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-sm-8 text-center">
+              <span> created by <a class="text-info text-decoration-none" href="http://www.kaabe.org">kaabe</a> with
+                &hearts;, All right is reserved &copy; ecommerce.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script> -->
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
